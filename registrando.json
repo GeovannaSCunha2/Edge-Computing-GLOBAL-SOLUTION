@@ -1,0 +1,16 @@
+{
+    "description": "Heart Rate Commands",
+    "dataProvided": {
+      "entities": [
+        {
+          "id": "urn:ngsi-ld:HeartRateSensor:002", "type": "HeartRateSensor"
+        }
+      ],
+      "attrs": ["on", "off"]
+    },
+    "provider": {
+      "http": { "url": "http://{{url}}:4041" },
+      "legacyForwarding": true
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "devices": [
+      {
+        "device_id": "heartRate002",
+        "entity_name": "urn:ngsi-ld:HeartRateSensor:002",
+        "entity_type": "HeartRateSensor",
+        "protocol": "PDI-IoTA-UltraLight",
+        "transport": "MQTT",
+  
+        "commands": [
+          { "name": "start", "type": "command" },
+          { "name": "stop", "type": "command" }
+        ],
+  
+        "attributes": [
+          { "object_id": "s", "name": "status", "type": "Text" },
+          { "object_id": "bpm", "name": "heartRate", "type": "Float" }
+        ]
+      }
+    ]
+  }
+  
