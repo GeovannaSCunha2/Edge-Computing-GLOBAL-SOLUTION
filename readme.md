@@ -1,6 +1,6 @@
 # HealthPartner - Projeto de avaliação de exames e armazenamento de sinais vitais
 <div align="center">
-  <img src="https://github.com/fernandakaory/gs-edge2/assets/126582859/f5df60d0-94ee-4a6e-b8cb-9a3c695df211" width="300"  alt="logotipo">
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/b163ac56-5767-4669-a3a5-3b57b59a1436" width="300"  alt="logotipo">
 </div>
 
 ## Integrantes
@@ -46,23 +46,24 @@ cada leitura dos sensores, proporcionando um registro temporal preciso das infor
 
 ## Implementação do Sistema IoT
 <div align="center">
-  <img src="https://github.com/fernandakaory/gs-edge2/assets/126582859/ea62233a-8d31-4f4e-8f86-4b610dd76d58" width="600" >
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/f136c444-7a6d-4ee0-ad59-5cfd79b555a0" width="600" >
 </div>
 <h3>Hardware </h3>
 - <b>Placa ESP 32:</b> Esta placa, equipada com dois núcleos de 32 bits, permite a conexão Wi-Fi ou Bluetooth, possibilitando a implementação da Internet das Coisas (IoT) em nosso protótipo.
+<div>
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/22e6488e-14f1-4284-ae9d-68acb57990c0" >
+</div>
 - <b>Gerador de pulso:</b> Este dispositivo é usado para simular a captação de batimentos cardíacos.
-
+<div>
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/7a22e8b8-276a-4da4-83c0-81e9e35aca1e" >
+</div>
 <h3>Back-end</h3>
 No back-end do projeto, empregamos o Fiware, uma plataforma de código aberto que disponibiliza uma infraestrutura robusta e padronizada para o desenvolvimento de aplicações e serviços inteligentes baseados em IoT. O Fiware facilita a coleta, armazenamento e transporte de dados capturados pelo sensor de batimento cardíaco. Esses dados são então integrados à nossa aplicação de front-end, onde são apresentados aos usuários de maneira clara e intuitiva, proporcionando uma experiência prática.
 <div align="center">
-  <img src="https://github.com/fernandakaory/sprint3-edge/assets/126582859/dcd4980b-f53f-444d-99d6-4925a6668d87" >
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/54eabf6b-b6ad-4b9e-8aeb-effe2e5c15ff" >
 </div>
 <h3>Front-end</h3>
 Para o front-end, estamos utilizando o <a href=https://freeboard.io/> Freeboard </a>, uma plataforma que fornece todos os recursos necessários para a visualização de dados transmitidos via MQTT a partir do Fiware Orion. Além disso, o Freeboard facilita a interpretação dos dados, permitindo aos usuários compreender facilmente as informações capturadas pelo sensor. 
-
-<div align="center">
-  <img src="https://github.com/fernandakaory/gs-edge2/assets/126582859/2198455c-be5d-4d0b-8d7f-f610aeefe1d8" width="600" >
-</div>
 
 
 ## Requisitos do projeto
