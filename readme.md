@@ -64,7 +64,9 @@ No back-end do projeto, empregamos o Fiware, uma plataforma de código aberto qu
 </div>
 <h3>Front-end</h3>
 Para o front-end, estamos utilizando o <a href=https://freeboard.io/> Freeboard </a>, uma plataforma que fornece todos os recursos necessários para a visualização de dados transmitidos via MQTT a partir do Fiware Orion. Além disso, o Freeboard facilita a interpretação dos dados, permitindo aos usuários compreender facilmente as informações capturadas pelo sensor. 
-
+<div align="center">
+  <img src="https://github.com/GeovannaSCunha2/Edge-Computing-GS/assets/126582620/0694ccd4-fe52-4d9a-baef-66bd10e473b9" >
+</div>
 
 ## Requisitos do projeto
 - Docker e docker compose.
